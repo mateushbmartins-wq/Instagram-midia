@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Post de imagem única</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#1B365D}a:hover{color:#111111}
+</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 110px 120px; background: #FFFFFF; display: flex; flex-direction: column; justify-content: space-between; font-family: Inter, system-ui, sans-serif; color: #111111">
+<div style="display: flex; align-items: center; gap: 32px">
+<img src="../assets/avatar.jpg" alt="Foto de Mateus Martins" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 46px; font-weight: 700; color: #111111">Mateus Martins</span>
+<span style="font-size: 34px; color: #555555">@mateushmartins_</span>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 40px">
+<span style="align-self: flex-start; background: #1B365D; color: #FFFFFF; font-size: 30px; font-weight: 800; letter-spacing: 0.08em; padding: 12px 22px; border-radius: 6px">TRABALHO</span>
+<h1 style="margin: 0; font-weight: 800; font-size: 92px; line-height: 1.04; letter-spacing: -0.02em; color: #111111">Dá para receber os dois <span style="color: #1B365D">adicionais</span>?</h1>
+<p style="margin: 0; font-size: 46px; line-height: 1.35; color: #222222"><strong style="font-weight: 800">Não.</strong> Quem tem direito aos dois escolhe o mais vantajoso.</p>
+<div style="background: #1B365D; border-radius: 8px; padding: 32px 44px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 40px; line-height: 1.3; font-weight: 800; color: #FFFFFF">Salve e envie a quem precisa.</span>
+<span style="font-size: 32px; line-height: 1.3; font-weight: 500; color: #DCE4EE">Dr. Mateus Martins · OAB/SP 414.780</span>
+</div>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 24px">
+<span style="font-size: 32px; color: #555555">CLT, art. 193, § 2º · {{conferir}}</span>
+<div style="width: 120px; height: 4px; background: #1B365D"></div>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>
